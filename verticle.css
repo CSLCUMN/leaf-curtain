@@ -1,0 +1,93 @@
+#ahc-header { margin-bottom: 6px;}
+#highlighted img { margin-bottom: 20px;}
+#main-content {
+	position: relative;
+}
+.identity { width: 100%}
+.identity .school { width: 30%; float: left; }
+.identity .department { width: 70%; float: left;}
+.identity .department h1 { font-size: 1.5em;}
+
+.hero-image { width: 100%; }
+ul.vert-ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+li.vert-nav {
+	width: 100%;
+	float: left;
+
+}
+li.vert-nav {
+	text-decoration: none;
+}
+li.vert-nav a {
+	text-decoration: none;
+	display: block;
+	background: #ececec;
+	padding: 1em 4px ;
+	line-height: 1;
+	border-bottom: 1px solid white;
+}
+.vertical #navcol {
+	float: left;
+	width: 17%;
+	height: 100%;
+	background: #ececec;
+	margin: 20px 0;
+	position: relative;
+}
+.vertical #maincol {
+	float: right;
+	width: 81%;
+	}
+.vert-mobile-menu {
+	display: none;
+	}
+body.right-column #maincol {
+    position: relative;
+    width: 81%;
+}	
+body.right-column #secondarycol {	
+	display: none;
+	}
+@media only screen and (max-width: 609px) {
+
+.vertical #maincol {
+	width: 100% !important;
+}
+
+.vertical #navcol {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 39px; left: 0;
+	z-index: 50;
+	}
+.vert-mobile-menu {
+	display: block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	z-index: 100;
+	text-align: center;
+	}
+	.vert-mobile-menu a {
+		text-decoration: none;
+		color: #7a0119;
+		font-size: 60px;
+	}
+ul.vert-ul {
+	width: 0; height: 0;
+	overflow: hidden;
+}
+.open ul.vert-ul {
+	display: block;
+	width: 160px; height: auto;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+}
+h1,h2  { font-size: 26px; line-height: 26px; }	
+.identity .department h1 { font-size: 1.25em;}
+}	/***************  close of max 609 ---------------------------------------------------------------------------------- */	
